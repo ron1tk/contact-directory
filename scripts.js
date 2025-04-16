@@ -58,7 +58,7 @@ const contactsData = [
         organization: "Movimiento Agroecológico",
         role: "Educadora Comunitaria",
         description: "Desarrolla programas educativos sobre agricultura sostenible para comunidades locales.",
-        image: "placeholder-maria.jpg" // Replace with actual image path
+        image: "GabyPerezPic.png" // Replace with actual image path
     }
 ];
 
