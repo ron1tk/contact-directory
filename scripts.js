@@ -32,7 +32,7 @@ const contactsData = [
     },
     {
         id: 4,
-        name: "Ana Rivera",
+        name: "Ruz Deliz",
         email: "ana@fiticas.org",
         phone: "(456) 789-0123",
         organization: "Cooperativa Agrícola El Coquí",
