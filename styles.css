@@ -1,72 +1,89 @@
-/* Default styles for desktop and larger screens */
-body {
-    font-family: Arial, sans-serif;
+/* General Reset */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    box-sizing: border-box;
 }
 
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    line-height: 1.6;
+}
+
+/* Header Styling */
 header {
-    background-color: #4CAF50;
+    background-color: #004d7f;
     color: white;
-    padding: 1rem;
-    text-align: center;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-h1 {
-    margin: 0;
+header .logo img {
+    height: 50px; /* Adjust size as needed */
 }
 
-main {
-    padding: 20px;
+nav ul {
+    list-style: none;
+    display: flex;
 }
 
-.search-section {
-    margin-bottom: 20px;
+nav ul li {
+    margin-left: 20px;
 }
 
-#searchBar {
-    width: 100%;
-    padding: 10px;
+nav ul li a {
+    color: white;
+    text-decoration: none;
     font-size: 1rem;
-    border-radius: 5px;
-    border: 1px solid #ccc;
 }
 
-.directory {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
-.contact {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    margin-top: 0;
-}
-
-footer {
+/* Main Section Styling */
+main {
+    padding: 40px 2rem;
     text-align: center;
-    padding: 1rem;
-    background-color: #4CAF50;
-    color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 
-/* Media queries for smaller devices */
-@media (max-width: 768px) {
-    .directory {
-        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-    }
+/* Section Styling */
+.section {
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
 
-    #searchBar {
-        font-size: 0.9rem;
-    }
+h1, h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+button a {
+    text-decoration: none;
+    background-color: #004d7f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+button a:hover {
+    background-color: #003b5c;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #004d7f;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
 }
