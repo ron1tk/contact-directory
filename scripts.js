@@ -6,7 +6,7 @@ const contactsData = [
         email: "mariolga@fiticas.org",
         phone: "(123) 456-7890",
         organization: "FiTiCAS",
-        role: "Directora Ejecutiva",
+        role: "Co-founder and Executive Director of FiTiCAS",
         description: "Lidera iniciativas para proteger tierras agrícolas y promover prácticas sostenibles en Puerto Rico.",
         image: "mariolgaPic.jpeg" // Replace with actual image path
     },
