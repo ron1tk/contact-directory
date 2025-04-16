@@ -12,13 +12,18 @@
     </header>
 
     <main>
-        <section class="directory">
-            <div class="contact">
+        <!-- Search Bar -->
+        <section class="search-section">
+            <input type="text" id="searchBar" placeholder="Search Contacts..." onkeyup="filterContacts()">
+        </section>
+
+        <section class="directory" id="contactDirectory">
+            <div class="contact" data-name="John Doe" data-email="john@example.com" data-phone="(123) 456-7890">
                 <h2>John Doe</h2>
                 <p>Email: john@example.com</p>
                 <p>Phone: (123) 456-7890</p>
             </div>
-            <div class="contact">
+            <div class="contact" data-name="Jane Smith" data-email="jane@example.com" data-phone="(987) 654-3210">
                 <h2>Jane Smith</h2>
                 <p>Email: jane@example.com</p>
                 <p>Phone: (987) 654-3210</p>
@@ -30,5 +35,7 @@
     <footer>
         <p>Contact Directory - 2025</p>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
