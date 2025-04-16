@@ -7,7 +7,7 @@ const contactsData = [
         phone: "(123) 456-7890",
         organization: "FiTiCAS",
         role: "Co-founder and Executive Director of FiTiCAS",
-        description: "Lidera iniciativas para proteger tierras agrícolas y promover prácticas sostenibles en Puerto Rico.",
+        description: "A Puerto Rican ecofeminist community psychologist, agroecology advocate, and documentary filmmaker, she co-founded FiTiCAS to promote food sovereignty and climate justice in Puerto Rico",
         image: "mariolgaPic.jpeg" // Replace with actual image path
     },
     {
@@ -17,7 +17,7 @@ const contactsData = [
         phone: "(234) 567-8901",
         organization: "FiTiCAS",
         role: "Coordinador de Proyectos",
-        description: "Coordina proyectos comunitarios y maneja las relaciones con agricultores locales.",
+        description: "A Program Associate at Fundación Borincana, he supports renewable energy projects and sustainable development initiatives in Puerto Rico",
         image: "placeholder-javier.jpg" // Replace with actual image path
     },
     {
@@ -37,7 +37,7 @@ const contactsData = [
         phone: "(456) 789-0123",
         organization: "Cooperativa Agrícola El Coquí",
         role: "Coordinadora de Agricultura",
-        description: "Trabaja con agricultores locales para implementar prácticas sostenibles y mejorar la producción.",
+        description: " An environmental consultant and strategic advisor in Puerto Rico, she has expertise in grant management, disaster recovery, and nonprofit organizations.",
         image: "ruzDelizPic.jpeg" // Replace with actual image path
     },
     {
