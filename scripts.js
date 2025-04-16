@@ -1,7 +1,7 @@
 function filterContacts() {
     const input = document.getElementById("searchBar").value.toLowerCase();
     const contacts = document.querySelectorAll(".contact");
-    
+
     contacts.forEach(contact => {
         const name = contact.dataset.name.toLowerCase();
         const email = contact.dataset.email.toLowerCase();
