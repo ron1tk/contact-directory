@@ -8,7 +8,7 @@ const contactsData = [
         organization: "FiTiCAS",
         role: "Directora Ejecutiva",
         description: "Lidera iniciativas para proteger tierras agrícolas y promover prácticas sostenibles en Puerto Rico.",
-        image: "placeholder-mariolga.jpg" // Replace with actual image path
+        image: "mariolaPic.jpeg" // Replace with actual image path
     },
     {
         id: 2,
