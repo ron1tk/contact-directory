@@ -42,13 +42,13 @@ const contactsData = [
     },
     {
         id: 5,
-        name: "Carlos Rodríguez",
+        name: "Tito Figueroa",
         email: "carlos@fiticas.org",
         phone: "(567) 890-1234",
         organization: "FiTiCAS",
         role: "Asesor Legal",
         description: "Provee asesoramiento legal en temas de titularidad de tierras y políticas agrícolas.",
-        image: "placeholder-carlos.jpg" // Replace with actual image path
+        image: "TitoPic.jpeg" // Replace with actual image path
     },
     {
         id: 6,
