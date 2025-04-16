@@ -38,7 +38,7 @@ const contactsData = [
         organization: "Cooperativa Agrícola El Coquí",
         role: "Coordinadora de Agricultura",
         description: "Trabaja con agricultores locales para implementar prácticas sostenibles y mejorar la producción.",
-        image: "placeholder-ana.jpg" // Replace with actual image path
+        image: "ruzDelizPic.jpeg" // Replace with actual image path
     },
     {
         id: 5,
@@ -52,7 +52,7 @@ const contactsData = [
     },
     {
         id: 6,
-        name: "María González",
+        name: "Gaby Perez",
         email: "maria@fiticas.org",
         phone: "(678) 901-2345",
         organization: "Movimiento Agroecológico",
