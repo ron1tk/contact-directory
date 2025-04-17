@@ -74,7 +74,7 @@ const contactsData = [
         organization: "FiTiCAS",
         role: "Communications Officer",
         description: "Agroecological communicator and promoter, she is a clinical herbalist in training and an ethnobotanist apprentice who seeks to sustain healthy communities by providing access to land for those who cultivate food and natural medicine in a fair and sustainable manner. She earned her bachelor's degree in Information and Journalism, with a minor in Political Science, from the University of Puerto Rico, Río Piedras Campus.",
-        image: "ashleyPic.jpeg"
+        image: "ashleyRodriguez.png"
     }
 ];
 
