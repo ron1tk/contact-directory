@@ -18,7 +18,7 @@ const contactsData = [
         organization: "FiTiCAS",
         role: "Coordinador de Proyectos",
         description: "A Program Associate at Fundación Borincana, he supports renewable energy projects and sustainable development initiatives in Puerto Rico",
-        image: "placeholder-javier.jpg" // Replace with actual image path
+        image: "javierVelezPic.jpeg" // Replace with actual image path
     },
     {
         id: 3,
@@ -28,7 +28,7 @@ const contactsData = [
         organization: "FiTiCAS",
         role: "Especialista en Agricultura",
         description: "Ofrece apoyo técnico en prácticas agrícolas sostenibles y manejo de tierras.",
-        image: "placeholder-juan.jpg" // Replace with actual image path
+        image: "JuanCamachoPic.jpg" // Replace with actual image path
     },
     {
         id: 4,
