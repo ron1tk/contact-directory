@@ -299,6 +299,7 @@ footer {
     text-align: center;
 }
 
+
 footer a {
     color: #DAD0B8;
     text-decoration: none;
@@ -324,7 +325,7 @@ footer a:hover {
     nav ul li {
         margin: 0 10px;
     }
-    
+
     
     .contact-map {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
