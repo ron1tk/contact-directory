@@ -116,6 +116,88 @@ main {
     font-size: 0.9rem;
 }
 
+/* Organization Map Styling */
+.org-map {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.org-card {
+    background-color: #F0EAD8;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.org-card:hover {
+    transform: translateY(-5px);
+}
+
+.org-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.org-info {
+    padding: 1rem;
+}
+
+.org-info h3 {
+    margin-top: 0;
+    color: #2F3A26;
+    font-size: 1.2rem;
+}
+
+/* Members Container Styling */
+.members-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.member-card {
+    background-color: #F0EAD8;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.member-card:hover {
+    transform: translateY(-3px);
+}
+
+.member-image {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.member-info {
+    padding: 0.8rem;
+}
+
+.member-info h4 {
+    margin: 0;
+    color: #2F3A26;
+    font-size: 1rem;
+}
+
+.member-info p {
+    margin: 0.3rem 0 0;
+    font-size: 0.8rem;
+}
+
 /* Modal Styling for Contact Details */
 .modal {
     display: none;
@@ -135,6 +217,8 @@ main {
     padding: 2rem;
     max-width: 600px;
     border-radius: 8px;
+    max-height: 80vh;
+    overflow-y: auto;
 }
 
 .close-button {
@@ -167,6 +251,11 @@ main {
 
 .modal-details p {
     margin: 0.5rem 0;
+}
+
+.modal-details h3 {
+    margin-top: 1.5rem;
+    color: #2F3A26;
 }
 
 /* Section Styling */
@@ -238,5 +327,13 @@ footer a:hover {
     
     .contact-map {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    
+    .org-map {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    
+    .members-container {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     }
 }

@@ -62,9 +62,32 @@ const contactsData = [
     }
 ];
 
-// Populate the contact map when the page loads
+// Organizations data
+const organizationsData = [
+    {
+        id: 1,
+        name: "FiTiCAS",
+        description: "Fideicomiso de Tierras Comunitarias para la Agricultura Sostenible trabaja para asegurar el acceso perpetuo del campesinado puertorriqueño a tierras cultivables.",
+        image: "fiticas-logo.png"
+    },
+    {
+        id: 2,
+        name: "Cooperativa Agrícola El Coquí",
+        description: "Organización cooperativa que apoya a agricultores locales en Puerto Rico para implementar prácticas sostenibles.",
+        image: "coqui-logo.png" // Replace with actual image path
+    },
+    {
+        id: 3,
+        name: "Movimiento Agroecológico",
+        description: "Organización dedicada a la promoción de la agroecología y la soberanía alimentaria en Puerto Rico.",
+        image: "agroecologico-logo.png" // Replace with actual image path
+    }
+];
+
+// Populate the contact map and organization section when the page loads
 document.addEventListener('DOMContentLoaded', function() {
     populateContactMap();
+    populateOrganizationSection();
 });
 
 // Function to populate the contact map
@@ -79,6 +102,7 @@ function populateContactMap() {
         contactCard.setAttribute('data-name', contact.name);
         contactCard.setAttribute('data-email', contact.email);
         contactCard.setAttribute('data-phone', contact.phone);
+        contactCard.setAttribute('data-organization', contact.organization);
         
         contactCard.innerHTML = `
             <img src="${contact.image}" alt="${contact.name}" class="contact-image">
@@ -96,6 +120,32 @@ function populateContactMap() {
     });
 }
 
+// Function to populate the organization section
+function populateOrganizationSection() {
+    const orgSection = document.getElementById('organizationSection');
+    orgSection.innerHTML = ''; // Clear existing content
+    
+    organizationsData.forEach(org => {
+        const orgCard = document.createElement('div');
+        orgCard.className = 'org-card';
+        orgCard.setAttribute('data-id', org.id);
+        orgCard.setAttribute('data-name', org.name);
+        
+        orgCard.innerHTML = `
+            <img src="${org.image}" alt="${org.name}" class="org-image">
+            <div class="org-info">
+                <h3>${org.name}</h3>
+            </div>
+        `;
+        
+        orgCard.addEventListener('click', function() {
+            openOrganizationModal(org);
+        });
+        
+        orgSection.appendChild(orgCard);
+    });
+}
+
 // Function to filter contacts
 function filterContacts() {
     const input = document.getElementById("searchBar").value.toLowerCase();
@@ -105,8 +155,9 @@ function filterContacts() {
         const name = card.getAttribute('data-name').toLowerCase();
         const email = card.getAttribute('data-email').toLowerCase();
         const phone = card.getAttribute('data-phone').toLowerCase();
+        const organization = card.getAttribute('data-organization').toLowerCase();
 
-        if (name.includes(input) || email.includes(input) || phone.includes(input)) {
+        if (name.includes(input) || email.includes(input) || phone.includes(input) || organization.includes(input)) {
             card.style.display = "";
         } else {
             card.style.display = "none";
@@ -128,6 +179,42 @@ function openContactModal(contact) {
             <p><strong>Email:</strong> ${contact.email}</p>
             <p><strong>Teléfono:</strong> ${contact.phone}</p>
             <p><strong>Descripción:</strong> ${contact.description}</p>
+        </div>
+    `;
+    
+    modal.style.display = 'block';
+}
+
+// Function to open organization modal with member list
+function openOrganizationModal(org) {
+    const modal = document.getElementById('contactModal');
+    const modalContent = document.getElementById('modalContent');
+    
+    // Find all contacts that belong to this organization
+    const orgMembers = contactsData.filter(contact => contact.organization === org.name);
+    
+    let membersList = '';
+    orgMembers.forEach(member => {
+        membersList += `
+            <div class="member-card" onclick="openContactModal(contactsData.find(c => c.id === ${member.id}))">
+                <img src="${member.image}" alt="${member.name}" class="member-image">
+                <div class="member-info">
+                    <h4>${member.name}</h4>
+                    <p>${member.role}</p>
+                </div>
+            </div>
+        `;
+    });
+    
+    modalContent.innerHTML = `
+        <img src="${org.image}" alt="${org.name}" class="modal-image">
+        <div class="modal-details">
+            <h2>${org.name}</h2>
+            <p>${org.description}</p>
+            <h3>Miembros:</h3>
+            <div class="members-container">
+                ${membersList}
+            </div>
         </div>
     `;
     
