@@ -1,64 +1,60 @@
 // Contact data - replace with your actual contacts
+// Update the contactsData array to include LinkedIn instead of email/phone
 const contactsData = [
     {
         id: 1,
         name: "Mariolga Reyes-Cruz",
-        email: "mariolga@fiticas.org",
-        phone: "(123) 456-7890",
+        linkedin: "https://www.linkedin.com/in/mariolga-reyes-cruz/", // Replace with actual LinkedIn URL
         organization: "FiTiCAS",
         role: "Co-founder and Executive Director of FiTiCAS",
         description: "A Puerto Rican ecofeminist community psychologist, agroecology advocate, and documentary filmmaker, she co-founded FiTiCAS to promote food sovereignty and climate justice in Puerto Rico",
-        image: "mariolgaPic.jpeg" // Replace with actual image path
+        image: "mariolgaPic.jpeg"
     },
     {
         id: 2,
         name: "Javier Vélez Roth",
-        email: "javier@fiticas.org",
-        phone: "(234) 567-8901",
+        linkedin: "https://www.linkedin.com/in/javier-velez-roth/", // Replace with actual LinkedIn URL
         organization: "FiTiCAS",
         role: "Coordinador de Proyectos",
         description: "A Program Associate at Fundación Borincana, he supports renewable energy projects and sustainable development initiatives in Puerto Rico",
-        image: "javierVelezPic.jpeg" // Replace with actual image path
+        image: "javierVelezPic.jpeg"
     },
+    // Update the rest of the contacts similarly
     {
         id: 3,
         name: "Juan Camacho",
-        email: "juan@fiticas.org",
-        phone: "(345) 678-9012",
+        linkedin: "https://www.linkedin.com/in/juan-camacho/",
         organization: "FiTiCAS",
         role: "Especialista en Agricultura",
         description: "Ofrece apoyo técnico en prácticas agrícolas sostenibles y manejo de tierras.",
-        image: "JuanCamachoPic.png" // Replace with actual image path
+        image: "JuanCamachoPic.png"
     },
     {
         id: 4,
         name: "Ruz Deliz",
-        email: "ana@fiticas.org",
-        phone: "(456) 789-0123",
+        linkedin: "https://www.linkedin.com/in/ruz-deliz/",
         organization: "Cooperativa Agrícola El Coquí",
         role: "Coordinadora de Agricultura",
-        description: " An environmental consultant and strategic advisor in Puerto Rico, she has expertise in grant management, disaster recovery, and nonprofit organizations.",
-        image: "ruzDelizPic.jpeg" // Replace with actual image path
+        description: "An environmental consultant and strategic advisor in Puerto Rico, she has expertise in grant management, disaster recovery, and nonprofit organizations.",
+        image: "ruzDelizPic.jpeg"
     },
     {
         id: 5,
         name: "Tito Figueroa",
-        email: "carlos@fiticas.org",
-        phone: "(567) 890-1234",
+        linkedin: "https://www.linkedin.com/in/tito-figueroa/",
         organization: "FiTiCAS",
         role: "Asesor Legal",
         description: "Provee asesoramiento legal en temas de titularidad de tierras y políticas agrícolas.",
-        image: "TitoPic.jpeg" // Replace with actual image path
+        image: "TitoPic.jpeg"
     },
     {
         id: 6,
         name: "Gaby Perez",
-        email: "maria@fiticas.org",
-        phone: "(678) 901-2345",
+        linkedin: "https://www.linkedin.com/in/gaby-perez/",
         organization: "Movimiento Agroecológico",
         role: "Educadora Comunitaria",
         description: "Desarrolla programas educativos sobre agricultura sostenible para comunidades locales.",
-        image: "GabyPerezPic.png" // Replace with actual image path
+        image: "GabyPerezPic.png"
     }
 ];
 
@@ -100,8 +96,7 @@ function populateContactMap() {
         contactCard.className = 'contact-card';
         contactCard.setAttribute('data-id', contact.id);
         contactCard.setAttribute('data-name', contact.name);
-        contactCard.setAttribute('data-email', contact.email);
-        contactCard.setAttribute('data-phone', contact.phone);
+        contactCard.setAttribute('data-linkedin', contact.linkedin);
         contactCard.setAttribute('data-organization', contact.organization);
         
         contactCard.innerHTML = `
@@ -153,11 +148,9 @@ function filterContacts() {
 
     contactCards.forEach(card => {
         const name = card.getAttribute('data-name').toLowerCase();
-        const email = card.getAttribute('data-email').toLowerCase();
-        const phone = card.getAttribute('data-phone').toLowerCase();
         const organization = card.getAttribute('data-organization').toLowerCase();
 
-        if (name.includes(input) || email.includes(input) || phone.includes(input) || organization.includes(input)) {
+        if (name.includes(input) || organization.includes(input)) {
             card.style.display = "";
         } else {
             card.style.display = "none";
@@ -176,8 +169,7 @@ function openContactModal(contact) {
             <h2>${contact.name}</h2>
             <p><strong>Rol:</strong> ${contact.role}</p>
             <p><strong>Organización:</strong> ${contact.organization}</p>
-            <p><strong>Email:</strong> ${contact.email}</p>
-            <p><strong>Teléfono:</strong> ${contact.phone}</p>
+            <p><strong>LinkedIn:</strong> <a href="${contact.linkedin}" target="_blank">Ver perfil de LinkedIn</a></p>
             <p><strong>Descripción:</strong> ${contact.description}</p>
         </div>
     `;
