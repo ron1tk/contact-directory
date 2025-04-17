@@ -28,7 +28,7 @@ const contactsData = [
         organization: "FiTiCAS",
         role: "Especialista en Agricultura",
         description: "Ofrece apoyo técnico en prácticas agrícolas sostenibles y manejo de tierras.",
-        image: "JuanCamachoPic.jpg" // Replace with actual image path
+        image: "JuanCamachoPic.png" // Replace with actual image path
     },
     {
         id: 4,
