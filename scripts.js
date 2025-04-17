@@ -53,7 +53,7 @@ const contactsData = [
         id: 6,
         name: "Tito Figueroa",
         linkedin: "N/A",
-        organization: "FiTiCAS",
+        organization: "Toro Negro Inc",
         role: "Asesor Legal",
         description: "Provee asesoramiento legal en temas de titularidad de tierras y políticas agrícolas.",
         image: "TitoPic.jpeg"
@@ -88,13 +88,13 @@ const organizationsData = [
     },
     {
         id: 2,
-        name: "Cooperativa Agrícola El Coquí",
+        name: "Fundacion Boricana",
         description: "Organización cooperativa que apoya a agricultores locales en Puerto Rico para implementar prácticas sostenibles.",
         image: "coqui-logo.png" // Replace with actual image path
     },
     {
         id: 3,
-        name: "Movimiento Agroecológico",
+        name: "Toro Negro Inc",
         description: "Organización dedicada a la promoción de la agroecología y la soberanía alimentaria en Puerto Rico.",
         image: "agroecologico-logo.png" // Replace with actual image path
     }
