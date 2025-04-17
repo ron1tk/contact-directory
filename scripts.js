@@ -18,7 +18,7 @@ const contactsData = [
         organization: "FiTiCAS",
         role: "Co-founder and Executive Director of FiTiCAS",
         description: "A Puerto Rican ecofeminist community psychologist, agroecology advocate, and documentary filmmaker, she co-founded FiTiCAS to promote food sovereignty and climate justice in Puerto Rico",
-        image: "mariolgaPic.jpeg"
+        image: "juanmaPaganPic.png"
     },
 
     {
@@ -43,7 +43,7 @@ const contactsData = [
     {
         id: 5,
         name: "Ruz Deliz",
-        linkedin: "https://www.linkedin.com/in/ruz-deliz/",
+        linkedin: "https://www.linkedin.com/in/ruz-i-deliz-520a4590/",
         organization: "Cooperativa Agrícola El Coquí",
         role: "Coordinadora de Agricultura",
         description: "An environmental consultant and strategic advisor in Puerto Rico, she has expertise in grant management, disaster recovery, and nonprofit organizations.",
@@ -52,7 +52,7 @@ const contactsData = [
     {
         id: 6,
         name: "Tito Figueroa",
-        linkedin: "https://www.linkedin.com/in/tito-figueroa/",
+        linkedin: "N/A",
         organization: "FiTiCAS",
         role: "Asesor Legal",
         description: "Provee asesoramiento legal en temas de titularidad de tierras y políticas agrícolas.",
@@ -61,7 +61,7 @@ const contactsData = [
     {
         id: 7,
         name: "Gaby Perez",
-        linkedin: "https://www.linkedin.com/in/gaby-perez/",
+        linkedin: "https://www.linkedin.com/in/gabyperezsepulveda/",
         organization: "Movimiento Agroecológico",
         role: "Educadora Comunitaria",
         description: "Desarrolla programas educativos sobre agricultura sostenible para comunidades locales.",
