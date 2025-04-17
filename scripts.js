@@ -13,11 +13,11 @@ const contactsData = [
 
     {
         id: 2,
-        name: "JuanMa Pagan",
+        name: "JuanMa Pagán Teitelbaum",
         linkedin: "https://www.linkedin.com/in/mariolga-reyes-cruz/", // Replace with actual LinkedIn URL
         organization: "FiTiCAS",
         role: "Co-founder and Executive Director of FiTiCAS",
-        description: "A Puerto Rican ecofeminist community psychologist, agroecology advocate, and documentary filmmaker, she co-founded FiTiCAS to promote food sovereignty and climate justice in Puerto Rico",
+        description: "A documentary filmmaker and agroecological promoter, he grew up between a land rescue project and a housing cooperative. He earned his master's degree in film and Caribbean studies from the State University of New York at Buffalo. Together with Mariolga Reyes Cruz, he has made more than 30 short documentaries on sustainable agriculture and the feature film 'Serán las dueñas de la tierra' (They Will Be the Owners of the Land). His work has been instrumental in raising awareness of the agroecological movement in Puerto Rico and its struggles.",
         image: "juanmaPaganPic.png"
     },
 
@@ -66,6 +66,15 @@ const contactsData = [
         role: "Educadora Comunitaria",
         description: "Desarrolla programas educativos sobre agricultura sostenible para comunidades locales.",
         image: "GabyPerezPic.png"
+    }, 
+    {
+        id: 8,
+        name: "Ashley Ann Torres Rodríguez",
+        linkedin: "https://www.linkedin.com/in/ashleyanntorresrodriguez/",
+        organization: "FiTiCAS",
+        role: "Communications Officer",
+        description: "Agroecological communicator and promoter, she is a clinical herbalist in training and an ethnobotanist apprentice who seeks to sustain healthy communities by providing access to land for those who cultivate food and natural medicine in a fair and sustainable manner. She earned her bachelor's degree in Information and Journalism, with a minor in Political Science, from the University of Puerto Rico, Río Piedras Campus.",
+        image: "ashleyPic.jpeg"
     }
 ];
 
