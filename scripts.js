@@ -10,8 +10,19 @@ const contactsData = [
         description: "A Puerto Rican ecofeminist community psychologist, agroecology advocate, and documentary filmmaker, she co-founded FiTiCAS to promote food sovereignty and climate justice in Puerto Rico",
         image: "mariolgaPic.jpeg"
     },
+
     {
         id: 2,
+        name: "JuanMa Pagan",
+        linkedin: "https://www.linkedin.com/in/mariolga-reyes-cruz/", // Replace with actual LinkedIn URL
+        organization: "FiTiCAS",
+        role: "Co-founder and Executive Director of FiTiCAS",
+        description: "A Puerto Rican ecofeminist community psychologist, agroecology advocate, and documentary filmmaker, she co-founded FiTiCAS to promote food sovereignty and climate justice in Puerto Rico",
+        image: "mariolgaPic.jpeg"
+    },
+
+    {
+        id: 3,
         name: "Javier Vélez Roth",
         linkedin: "https://www.linkedin.com/in/javier-velez-roth/", // Replace with actual LinkedIn URL
         organization: "FiTiCAS",
@@ -21,7 +32,7 @@ const contactsData = [
     },
     // Update the rest of the contacts similarly
     {
-        id: 3,
+        id: 4,
         name: "Juan Camacho",
         linkedin: "https://www.linkedin.com/in/juan-camacho/",
         organization: "FiTiCAS",
@@ -30,7 +41,7 @@ const contactsData = [
         image: "JuanCamachoPic.png"
     },
     {
-        id: 4,
+        id: 5,
         name: "Ruz Deliz",
         linkedin: "https://www.linkedin.com/in/ruz-deliz/",
         organization: "Cooperativa Agrícola El Coquí",
@@ -39,7 +50,7 @@ const contactsData = [
         image: "ruzDelizPic.jpeg"
     },
     {
-        id: 5,
+        id: 6,
         name: "Tito Figueroa",
         linkedin: "https://www.linkedin.com/in/tito-figueroa/",
         organization: "FiTiCAS",
@@ -48,7 +59,7 @@ const contactsData = [
         image: "TitoPic.jpeg"
     },
     {
-        id: 6,
+        id: 7,
         name: "Gaby Perez",
         linkedin: "https://www.linkedin.com/in/gaby-perez/",
         organization: "Movimiento Agroecológico",
