@@ -25,7 +25,7 @@ const contactsData = [
         id: 3,
         name: "Javier Vélez Roth",
         linkedin: "https://www.linkedin.com/in/javier-velez-roth/", // Replace with actual LinkedIn URL
-        organization: "FiTiCAS",
+        organization: "Fundación Borincana",
         role: "Coordinador de Proyectos",
         description: "A Program Associate at Fundación Borincana, he supports renewable energy projects and sustainable development initiatives in Puerto Rico",
         image: "javierVelezPic.jpeg"
