@@ -75,6 +75,36 @@ const contactsData = [
         role: "Communications Officer",
         description: "Agroecological communicator and promoter, she is a clinical herbalist in training and an ethnobotanist apprentice who seeks to sustain healthy communities by providing access to land for those who cultivate food and natural medicine in a fair and sustainable manner. She earned her bachelor's degree in Information and Journalism, with a minor in Political Science, from the University of Puerto Rico, Río Piedras Campus.",
         image: "ashleyRodriguez.png"
+    }, 
+
+    {
+        id: 9,
+        name: "Carmen Rivera",
+        linkedin: "https://www.linkedin.com/in/ashleyanntorresrodriguez/",
+        organization: "El Bosque Modelo",
+        role: "Secretary",
+        description: "A Puerto Rican environmental leader and community organizer, recognized for her significant contributions to sustainable development and conservation efforts in Puerto Rico.",
+        image: "carmen_pic.jpeg"
+    }, 
+
+    {
+        id: 10,
+        name: "Gina Malley Campos",
+        linkedin: "N/A",
+        organization: "Plenitud",
+        role: "Associate Director",
+        description: "A Puerto Rican environmental educator, activist, and community organizer dedicated to agroecology, decolonization, and holistic education. Her work spans grassroots initiatives, academic programs, and cultural storytelling, with a focus on reconnecting people to land, heritage, and healing",
+        image: "gina_pic.png"
+    }, 
+
+    {
+        id: 11,
+        name: "Eunice Jiminez",
+        linkedin: "N/A",
+        organization: "La Goyco",
+        role: "Media And Marketing Coordinator",
+        description: "A prominent Puerto Rican cultural and community manager, recognized for her work in the organization and development of social and cultural projects in Puerto Rico.",
+        image: "eunice_pic.jpg"
     }
 ];
 
