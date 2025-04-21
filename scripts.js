@@ -88,7 +88,7 @@ const organizationsData = [
     },
     {
         id: 2,
-        name: "Fundación Borincana",
+        name: "Fundacion Borincana",
         description: "Organización cooperativa que apoya a agricultores locales en Puerto Rico para implementar prácticas sostenibles.",
         image: "fundacionborincana_logo.jpeg" // Replace with actual image path
     },
