@@ -114,7 +114,7 @@ const contactsData = [
         organization: "AMA",
         role: "Co-founder and Agroecological Extension Coordinator",
         description: "A Puerto Rican anthropologist, educator, and community organizer dedicated to agroecology, mutual aid, and sustainable development. He is the co-founder of Apoyo Mutuo Agrícola (AMA), a grassroots initiative established in 2022 in response to Hurricane Fiona. AMA focuses on supporting small and medium-sized farmers in Puerto Rico by promoting agroecological practices, holistic health, and community resilience",
-        image: "martin_pic.jpg"
+        image: "martin_pic.JPG"
     }
 ];
 
