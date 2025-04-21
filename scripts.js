@@ -126,7 +126,13 @@ const organizationsData = [
         id: 3,
         name: "Toro Negro Inc",
         description: "Organización dedicada a la promoción de la agroecología y la soberanía alimentaria en Puerto Rico.",
-        image: "agroecologico-logo.png" // Replace with actual image path
+        image: "toro_negro.png" // Replace with actual image path
+    },
+    {
+        id: 4,
+        name: "Plenitud",
+        description: "Plenitud PR is a nonprofit organization based in Las Marías, Puerto Rico, dedicated to fostering sustainability, community resilience, and holistic education. Established in 2008, it serves as an educational farm and community center that integrates permaculture, agroecology, and the arts to promote environmental stewardship and social well-being.",
+        image: "plenitud.png" // Replace with actual image path
     }
 ];
 
