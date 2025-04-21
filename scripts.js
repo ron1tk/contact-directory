@@ -80,7 +80,7 @@ const contactsData = [
     {
         id: 9,
         name: "Carmen Rivera",
-        linkedin: "https://www.linkedin.com/in/ashleyanntorresrodriguez/",
+        linkedin: "N/A",
         organization: "El Bosque Modelo",
         role: "Secretary",
         description: "A Puerto Rican environmental leader and community organizer, recognized for her significant contributions to sustainable development and conservation efforts in Puerto Rico.",
