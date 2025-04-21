@@ -124,46 +124,53 @@ const organizationsData = [
         id: 1,
         name: "FiTiCAS",
         description: "Fideicomiso de Tierras Comunitarias para la Agricultura Sostenible trabaja para asegurar el acceso perpetuo del campesinado puertorriqueño a tierras cultivables.",
-        image: "fiticas-logo.png"
+        image: "fiticas-logo.png",
+        traits: "Food sovereignty, Land stewardship, Agroecology"
     },
     {
         id: 2,
         name: "Fundacion Borincana",
         description: "Organización cooperativa que apoya a agricultores locales en Puerto Rico para implementar prácticas sostenibles.",
-        image: "fundacionborincana_logo.jpeg" // Replace with actual image path
+        image: "fundacionborincana_logo.jpeg",
+        traits: "Renewable energy, Sustainability, Community development"
     },
     {
         id: 3,
         name: "Toro Negro Inc",
         description: "Organización dedicada a la promoción de la agroecología y la soberanía alimentaria en Puerto Rico.",
-        image: "toro_negro.png" // Replace with actual image path
+        image: "toro_negro.png",
+        traits: "Legal advocacy, Land rights, Agricultural policy"
     },
     {
         id: 4,
         name: "Plenitud",
         description: "Plenitud PR is a nonprofit organization based in Las Marías, Puerto Rico, dedicated to fostering sustainability, community resilience, and holistic education. Established in 2008, it serves as an educational farm and community center that integrates permaculture, agroecology, and the arts to promote environmental stewardship and social well-being.",
-        image: "plenitud.png" // Replace with actual image path
+        image: "plenitud.png",
+        traits: "Permaculture, Education, Holistic wellness"
     },
 
     {
         id: 5,
         name: "El Bosque Modelo",
         description: "El Bosque Modelo de Puerto Rico is a pioneering conservation and sustainable development initiative that integrates environmental protection with community empowerment. Established through Law No. 182 of 2014, it became the first jurisdiction globally to legally designate a Model Forest, encompassing approximately 390,000 acres across 31 municipalities in the island's central-western region. ",
-        image: "elboque_pic.png" // Replace with actual image path
+        image: "elboque_pic.png",
+        traits: "Conservation, Sustainable forestry, Ecotourism"
     },
 
     {
         id: 6,
         name: "La Goyco",
         description: "La Goyco is a community cultural center located in Santurce, Puerto Rico, which emerged in 2015 when residents of the Machuchal and Loíza Street sectors occupied the former Pedro G. Goyco School to transform it into a space dedicated to culture, education, and community health.",
-        image: "lagoyco_pic.png" // Replace with actual image path
+        image: "lagoyco_pic.png",
+        traits: "Cultural heritage, Community arts, Urban renewal"
     },
 
     {
         id: 7,
         name: "AMA",
         description: "Apoyo Mutuo Agrícola (AMA) is a grassroots mutual aid organization established in 2022 in Puerto Rico, founded by Jessica Santos and Martín Cobian. AMA emerged in response to Hurricane Fiona, aiming to support small and medium-sized farmers by promoting agroecology, holistic health, and community resilience.",
-        image: "ama_pic.jpeg" // Replace with actual image path
+        image: "ama_pic.jpeg",
+        traits: "Disaster response, Mutual aid, Farmer support"
     }
 ];
 
@@ -250,13 +257,18 @@ function openContactModal(contact) {
     const modal = document.getElementById('contactModal');
     const modalContent = document.getElementById('modalContent');
     
+    // Handle LinkedIn display - if LinkedIn is "N/A", just show text instead of a link
+    const linkedInDisplay = contact.linkedin === "N/A" ? 
+        `<p><strong>LinkedIn:</strong> N/A</p>` : 
+        `<p><strong>LinkedIn:</strong> <a href="${contact.linkedin}" target="_blank">Ver perfil de LinkedIn</a></p>`;
+    
     modalContent.innerHTML = `
         <img src="${contact.image}" alt="${contact.name}" class="modal-image">
         <div class="modal-details">
             <h2>${contact.name}</h2>
             <p><strong>Rol:</strong> ${contact.role}</p>
             <p><strong>Organización:</strong> ${contact.organization}</p>
-            <p><strong>LinkedIn:</strong> <a href="${contact.linkedin}" target="_blank">Ver perfil de LinkedIn</a></p>
+            ${linkedInDisplay}
             <p><strong>Descripción:</strong> ${contact.description}</p>
         </div>
     `;
@@ -290,6 +302,7 @@ function openOrganizationModal(org) {
         <div class="modal-details">
             <h2>${org.name}</h2>
             <p>${org.description}</p>
+            <p><strong>Áreas:</strong> ${org.traits}</p>
             <h3>Miembros:</h3>
             <div class="members-container">
                 ${membersList}
