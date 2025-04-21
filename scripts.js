@@ -20,14 +20,14 @@ const contactsData = [
         description: "A documentary filmmaker and agroecological promoter, he grew up between a land rescue project and a housing cooperative. He earned his master's degree in film and Caribbean studies from the State University of New York at Buffalo. Together with Mariolga Reyes Cruz, he has made more than 30 short documentaries on sustainable agriculture and the feature film 'Serán las dueñas de la tierra' (They Will Be the Owners of the Land). His work has been instrumental in raising awareness of the agroecological movement in Puerto Rico and its struggles.",
         image: "juanmaPaganPic.png"
     },
-
+  
     {
         id: 3,
         name: "Javier Vélez Roth",
-        linkedin: "https://www.linkedin.com/in/javier-velez-roth/", // Replace with actual LinkedIn URL
+        linkedin: "https://www.linkedin.com/in/javier-v%C3%A9lez-roth-55a885233/", // Replace with actual LinkedIn URL
         organization: "Fundación Borincana",
-        role: "Coordinador de Proyectos",
-        description: "A Program Associate at Fundación Borincana, he supports renewable energy projects and sustainable development initiatives in Puerto Rico",
+        role: "PRECAP Program Associate",
+        description: "Results-oriented bilingual professional with a focus on media, writing, research, public policy and consulting-driven organizations focusing on resilience and sustainability in the renewable energy sector. Working on and learning everyday about how to achieve goals aimed at community and economic development, based in Puerto Rico.",
         image: "javierVelezPic.jpeg"
     },
     // Update the rest of the contacts similarly
