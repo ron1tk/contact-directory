@@ -133,6 +133,13 @@ const organizationsData = [
         name: "Plenitud",
         description: "Plenitud PR is a nonprofit organization based in Las Marías, Puerto Rico, dedicated to fostering sustainability, community resilience, and holistic education. Established in 2008, it serves as an educational farm and community center that integrates permaculture, agroecology, and the arts to promote environmental stewardship and social well-being.",
         image: "plenitud.png" // Replace with actual image path
+    },
+
+    {
+        id: 5,
+        name: "El Boqsue Modelo",
+        description: "El Bosque Modelo de Puerto Rico is a pioneering conservation and sustainable development initiative that integrates environmental protection with community empowerment. Established through Law No. 182 of 2014, it became the first jurisdiction globally to legally designate a Model Forest, encompassing approximately 390,000 acres across 31 municipalities in the island's central-western region. ",
+        image: "elboque_pic.png" // Replace with actual image path
     }
 ];
 
