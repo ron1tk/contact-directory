@@ -35,9 +35,9 @@ const contactsData = [
         id: 4,
         name: "Juan Camacho",
         linkedin: "N/A",
-        organization: "FiTiCAS",
+        organization: "Other",
         role: "Especialista en Agricultura",
-        description: "Juan Camacho is a Puerto Rican electrical engineer and energy expert with extensive experience in the energy sector.",
+        description: "A Puerto Rican electrical engineer and energy expert with extensive experience in the energy sector.",
         image: "JuanCamachoPic.png"
     },
     {
@@ -90,7 +90,7 @@ const organizationsData = [
         id: 2,
         name: "Fundacion Boricana",
         description: "Organización cooperativa que apoya a agricultores locales en Puerto Rico para implementar prácticas sostenibles.",
-        image: "coqui-logo.png" // Replace with actual image path
+        image: "fundacionborincana_logo.jpeg" // Replace with actual image path
     },
     {
         id: 3,
