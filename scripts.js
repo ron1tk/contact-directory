@@ -34,10 +34,10 @@ const contactsData = [
     {
         id: 4,
         name: "Juan Camacho",
-        linkedin: "https://www.linkedin.com/in/juan-camacho/",
+        linkedin: "N/A",
         organization: "FiTiCAS",
         role: "Especialista en Agricultura",
-        description: "Ofrece apoyo técnico en prácticas agrícolas sostenibles y manejo de tierras.",
+        description: "Juan Camacho is a Puerto Rican electrical engineer and energy expert with extensive experience in the energy sector.",
         image: "JuanCamachoPic.png"
     },
     {
