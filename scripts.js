@@ -25,7 +25,7 @@ const contactsData = [
         id: 3,
         name: "Javier Vélez Roth",
         linkedin: "https://www.linkedin.com/in/javier-v%C3%A9lez-roth-55a885233/", // Replace with actual LinkedIn URL
-        organization: "Fundación Borincana",
+        organization: "Fundacion Borincana",
         role: "PRECAP Program Associate",
         description: "Results-oriented bilingual professional with a focus on media, writing, research, public policy and consulting-driven organizations focusing on resilience and sustainability in the renewable energy sector. Working on and learning everyday about how to achieve goals aimed at community and economic development, based in Puerto Rico.",
         image: "javierVelezPic.jpeg"
