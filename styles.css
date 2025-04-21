@@ -1,6 +1,8 @@
 /* General Styles */
 body {
-    font-family: 'Nunito', sans-serif;
+     
+    font-family: 'FontName', sans-serif;
+            
     background-color: #DAD0B8; /* Beige background from the image */
     color: #2F3A26; /* Dark green text color */
     line-height: 1.6;
