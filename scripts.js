@@ -147,7 +147,7 @@ const organizationsData = [
 
     {
         id: 5,
-        name: "El Boqsue Modelo",
+        name: "El Bosque Modelo",
         description: "El Bosque Modelo de Puerto Rico is a pioneering conservation and sustainable development initiative that integrates environmental protection with community empowerment. Established through Law No. 182 of 2014, it became the first jurisdiction globally to legally designate a Model Forest, encompassing approximately 390,000 acres across 31 municipalities in the island's central-western region. ",
         image: "elboque_pic.png" // Replace with actual image path
     },
