@@ -105,6 +105,16 @@ const contactsData = [
         role: "Media And Marketing Coordinator",
         description: "A prominent Puerto Rican cultural and community manager, recognized for her work in the organization and development of social and cultural projects in Puerto Rico.",
         image: "eunice_pic.jpg"
+    },
+
+    {
+        id: 12,
+        name: "Martin Cobian",
+        linkedin: "N/A",
+        organization: "AMA",
+        role: "Co-founder and Agroecological Extension Coordinator",
+        description: "A Puerto Rican anthropologist, educator, and community organizer dedicated to agroecology, mutual aid, and sustainable development. He is the co-founder of Apoyo Mutuo Agrícola (AMA), a grassroots initiative established in 2022 in response to Hurricane Fiona. AMA focuses on supporting small and medium-sized farmers in Puerto Rico by promoting agroecological practices, holistic health, and community resilience",
+        image: "eunice_pic.jpg"
     }
 ];
 
@@ -140,6 +150,13 @@ const organizationsData = [
         name: "El Boqsue Modelo",
         description: "El Bosque Modelo de Puerto Rico is a pioneering conservation and sustainable development initiative that integrates environmental protection with community empowerment. Established through Law No. 182 of 2014, it became the first jurisdiction globally to legally designate a Model Forest, encompassing approximately 390,000 acres across 31 municipalities in the island's central-western region. ",
         image: "elboque_pic.png" // Replace with actual image path
+    },
+
+    {
+        id: 6,
+        name: "La Goyco",
+        description: "La Goyco is a community cultural center located in Santurce, Puerto Rico, which emerged in 2015 when residents of the Machuchal and Loíza Street sectors occupied the former Pedro G. Goyco School to transform it into a space dedicated to culture, education, and community health.",
+        image: "lagoyco_pic.png" // Replace with actual image path
     }
 ];
 
