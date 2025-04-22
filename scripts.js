@@ -115,6 +115,16 @@ const contactsData = [
         role: "Co-founder and Agroecological Extension Coordinator",
         description: "A Puerto Rican anthropologist, educator, and community organizer dedicated to agroecology, mutual aid, and sustainable development. He is the co-founder of Apoyo Mutuo Agrícola (AMA), a grassroots initiative established in 2022 in response to Hurricane Fiona. AMA focuses on supporting small and medium-sized farmers in Puerto Rico by promoting agroecological practices, holistic health, and community resilience",
         image: "martin_pic.JPG"
+    },
+
+    {
+        id: 13,
+        name: "Doug Davis",
+        linkedin: "https://www.linkedin.com/in/doug-davis-04622a30/",
+        organization: "Astrawatt Solar Puerto Rico",
+        role: "Commercial Sales Manager",
+        description: "A passionate professional focused on decarbonization and energy efficiency, particularly in the renewable energy sector. He has a strong background as a Sales Engineer and Director of Sales Business Development, with experience in marketing and managing business relationships. Doug holds a BS in Engineering from Purdue University and has demonstrated leadership in deploying energy solutions like microgrids, photovoltaic (PV) systems, combined heat and power (CHP), and combined cooling, heating, and power (CCHP) applications across the U.S. He is particularly dedicated to helping Puerto Rico achieve its energy targets for 2050, emphasizing sustainable practices like solar power and energy storage. Doug has held key roles in companies such as Astrawatt Solar Puerto Rico, Dynamic Solar Solutions, and Lithion Battery Inc. His work has centered on promoting renewable energy, energy storage, and Distributed Energy Resource Management. ",
+        image: "doug_pic.jpeg"
     }
 ];
 
@@ -171,6 +181,14 @@ const organizationsData = [
         description: "Apoyo Mutuo Agrícola (AMA) is a grassroots mutual aid organization established in 2022 in Puerto Rico, founded by Jessica Santos and Martín Cobian. AMA emerged in response to Hurricane Fiona, aiming to support small and medium-sized farmers by promoting agroecology, holistic health, and community resilience.",
         image: "ama_pic.jpeg",
         traits: "Disaster response, Mutual aid, Farmer support"
+    },
+
+    {
+        id: 8,
+        name: "Astrawatt Solar",
+        description: "Astrawatt Solar Puerto Rico is a solar electric power generation company located in Trujillo Alto, Puerto Rico, with a team size of 51-200 employees. Their core mission is centered on the belief that everyone has the right to solar energy, striving to make the transition to solar power both easily accessible and a rewarding experience for customers. Operating under a franchise model, they recently held a summit at their new headquarters in Puerto Rico, highlighting their focus on collaboration, growth, and innovation within the solar industry to bring clean energy solutions to communities.",
+        image: "astrawatt_pic.jpeg",
+        traits: "Solar Energy, Collaborative"
     }
 ];
 
